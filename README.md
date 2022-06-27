@@ -1,7 +1,7 @@
-# ROS 2 (Galactic) PKGBUILD
+# ROS 2 (Humble) PKGBUILD
 
-[![AUR - ros2-galactic](https://img.shields.io/static/v1?label=AUR&message=ros2-galactic&color=1793D1&logo=archlinux)](https://aur.archlinux.org/packages/ros2-galactic/)
-![CI](https://github.com/m2-farzan/ros2-galactic-PKGBUILD/actions/workflows/test.yaml/badge.svg?branch=extended)
+[![AUR - ros2-humble](https://img.shields.io/static/v1?label=AUR&message=ros2-humble&color=1793D1&logo=archlinux)](https://aur.archlinux.org/packages/ros2-humble/)
+![CI](https://github.com/m2-farzan/ros2-humble-PKGBUILD/actions/workflows/test.yaml/badge.svg?branch=extended)
 ![Consider starring the repo!](https://img.shields.io/static/v1?label=&message=Consider+starring+the+repo!&color=gold)
 
 This package aims to provide an easy way to install ROS 2 on Archlinux.
@@ -17,10 +17,10 @@ them onto `master` and push them to AUR.
 
 ## See also
 
-[This package on AUR](https://aur.archlinux.org/packages/ros2-galactic/)
+[This package on AUR](https://aur.archlinux.org/packages/ros2-humble/)
 
 [ROS 2 Supplementary PKGBUILDS](https://github.com/m2-farzan/ros2-supplementary-pkgbuilds)
 
 [ROS 2 on Arch Wiki](https://wiki.archlinux.org/index.php/ROS)
 
-[ROS 2 Docs](https://docs.ros.org/en/galactic)
+[ROS 2 Docs](https://docs.ros.org/en/humble)
