@@ -53,6 +53,10 @@ prepare() {
     # Fix some issues in the code (TODO: Gradually move to upstream)
     ## osrf_testing_tools_cpp
     git -C $srcdir/ros2/src/osrf/osrf_testing_tools_cpp cherry-pick 869da204dd829308380df5a33e432670e474e54a
+    ## performance_test_fixture
+    git -C $srcdir/ros2/src/ros2/performance_test_fixture cherry-pick d736c276d292a78f9750aba39108d5222bf9629e
+    ## rmw_cyclonedds_cpp
+    git -C $srcdir/ros2/src/ros2/rmw_cyclonedds cherry-pick f57732d15be53796d518e12352866124efcaa939
 }
 
 build() {
