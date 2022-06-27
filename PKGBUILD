@@ -49,6 +49,10 @@ prepare() {
     export GIT_COMMITTER_EMAIL="pkgbuild@example.com"
     export GIT_AUTHOR_NAME="PKGBUILD"
     export GIT_AUTHOR_EMAIL="pkgbuild@example.com"
+
+    # Fix some issues in the code (TODO: Gradually move to upstream)
+    ## osrf_testing_tools_cpp
+    git -C $srcdir/ros2/src/osrf/osrf_testing_tools_cpp cherry-pick 869da204dd829308380df5a33e432670e474e54a
 }
 
 build() {
